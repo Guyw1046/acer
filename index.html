@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
-	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=32f17d2ee72f43e31a28fe2bfe840b96"></script>
+	<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=32f17d2ee72f43e31a28fe2bfe840b96"></script>
     <script src="js/jquery-1.7.2.min.js"></script>
 	<title>广告首页</title>
 	<script type="text/javascript">
@@ -179,7 +179,7 @@ function GetNearDealers(lon,lat){
     });
 }
 function setDealers(j) {
-    console.log(j);
+//    console.log(j);
     var marker,point;
     if(j[0].length==0){
         alert("您附近近距离可能没有店！");
